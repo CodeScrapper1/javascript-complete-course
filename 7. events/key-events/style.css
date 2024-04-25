@@ -1,0 +1,13 @@
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.heading{
+font-size: 50px;
+}
+.key-input{
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid red;
+}

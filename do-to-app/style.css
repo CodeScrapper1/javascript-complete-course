@@ -1,0 +1,72 @@
+.main {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.heading {
+  font-size: 50px;
+  color: brown;
+  text-align: center;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#form input {
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid brown;
+  outline: none;
+  width: 300px;
+}
+
+#submit {
+  background-color: green;
+  height: 30px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+hr {
+  height: 0.5px;
+  width: 100%;
+  background-color: gray;
+}
+
+.delete-btn {
+  color: red;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#clear {
+  background-color: rgb(190, 190, 190);
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#list li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  margin-left: -40px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}

@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.main button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: antiquewhite;
+    background-color: brown;
+    border-radius: 5px;
+    cursor: pointer;
+}
